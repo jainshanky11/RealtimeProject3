@@ -1,10 +1,10 @@
 #!/bin/bash
-container-cnt=$1
+container_cnt=$1
 
-echo "Total $container-cnt containers will be created"
+echo "Total $container_cnt containers will be created"
 echo "================================================"
 sleep 2;
-for i in `seq $container-cnt`
+for i in `seq $container_cnt`
 do
 echo "creating container no$i"
 sleep 1
